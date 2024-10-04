@@ -47,6 +47,7 @@ router.post('/', auth, upload.single('f_Image'), async (req, res) => {
     }
 });
 
+
 // Get Employees
 router.get('/', auth, async (req, res) => {
     try {
